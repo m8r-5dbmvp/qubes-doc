@@ -52,7 +52,7 @@ To access the journald log, use the `journalctl` command.
 If you want to use this template to for standard NetVMs you should install some more packeges:
 
 ~~~
-[user@F21-Minimal ~]$ sudo dnf install NetworkManager NetworkManager-wifi network-manager-applet  wireless-tools dbus-x11 dejavu-sans-fonts tinyproxy
+[user@F21-Minimal ~]$ sudo dnf install NetworkManager NetworkManager-wifi network-manager-applet  wireless-tools dbus-x11 dejavu-sans-fonts tinyproxy qubes-input-proxy-sender
 ~~~
 
 And maybe some more optional but useful packages as well:
